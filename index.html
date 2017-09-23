@@ -1,0 +1,62 @@
+<!DOCTYPe html>
+
+<head>
+
+  <html land="en-us">
+  <meta charset="utf-8">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="assets/css/reset.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <title>Crystal Game</title>
+</head>
+
+<body>
+
+  <div id="gameFlow">
+    <div id="instructions">
+      <h1>How to Play The Crysal Game</h1>
+      <ul>
+        <li>You will be give a random number at the beging of the game.</li>
+
+        <li>There are four crystals below. By clicking on a crystal you will add a spasific point value to your total score.</li>
+
+        <li>You win the game by maching you total score to the random number genorated at the start of the game.</li>
+
+        <li>You lose the game if your score exceeds the randomly genorated number.</li>
+
+        <li>Good luck and enjoy!</li>
+      </ul>
+    </div>
+    <div id="scoreGoal">
+      <h1>Number to Guess: <span id="matchToWin"></span></h1>
+    </div>
+
+    <div id="crystalValueGuessed">
+    </div>
+  </div>
+
+  <div id="crystals">
+
+    <img class="crystal-image" src="assets/images/crystal01.png" alt="crystals">
+
+    <img class="crystal-image" src="assets/images/crystal02.png" alt="crystals">
+
+    <img class="crystal-image" src="assets/images/crystal03.png" alt="crystals">
+
+    <img class="crystal-image" src="assets/images/crystal04.png" alt="crystals">
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="assets/js/game.js"></script>
+</body>
+
+</html>
